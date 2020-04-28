@@ -24,7 +24,7 @@ class Persons {
 	}
 	public String toString()
 	{
-		return getName() + "have to pay"+getAmount();
+		return getName() + "  have to pay  "+getAmount()+"Rs/-";
 	}
 	public Persons() {
 		// TODO Auto-generated constructor stub
@@ -40,6 +40,7 @@ public class equsplit {
 		System.out.println("enter the number of persons:");
 		 // Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
+		String d=sc.nextLine();
 		  Persons p[]=new Persons[n];
 		  for(int i=0;i<n;i++)
 		  {
