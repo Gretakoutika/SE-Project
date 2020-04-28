@@ -24,7 +24,7 @@ class Persons {
 	}
 	public String toString()
 	{
-		return getName() + "  have to pay  "+getAmount()+"Rs/-";
+		return getName() + "  have to pay  Rs."+getAmount()+"/-";
 	}
 	public Persons() {
 		// TODO Auto-generated constructor stub
