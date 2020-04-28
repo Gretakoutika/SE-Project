@@ -46,7 +46,7 @@ public class equsplit {
 		  {
 			  System.out.println("enter your Name:");
 			  String s=sc.nextLine();
-			   p[i]=new Persons(s,amount/n);
+			   p[i]=new Persons(s,equiSplit(n,amount);
 			  }
 		  for(int i=0;i<n;i++)
 			{
@@ -56,4 +56,7 @@ public class equsplit {
 	}
 	
 
+}
+public static void float(int n,float amount){
+	return amount/n;
 }
