@@ -100,5 +100,9 @@ public class test {
 	}  
 	  
 	}
+	public static float equiSplit(int n,float amount) {
+		// TODO Auto-generated method stub
+			return amount/n;
+		}
 
 }
