@@ -106,3 +106,30 @@ public class test {
 		}
 
 }
+public class equsplit {
+	public static void main(String args[])
+	{
+		
+		System.out.println("Enter the amount:");
+		Scanner sc=new Scanner(System.in);
+		float amount=sc.nextFloat();
+		System.out.println("enter the number of persons:");
+		int n=sc.nextInt();
+		String d=sc.nextLine();
+		Persons p[]=new Persons[n];
+		  for(int i=0;i<n;i++)
+		  {
+			  System.out.println("enter your Name:");
+			  String s=sc.nextLine();
+			   p[i]=new Persons(s,equiSplit(n,amount));
+			  }
+		  for(int i=0;i<n;i++)
+			System.out.println(p[i]);
+	}
+	
+			
+		public static float equiSplit(int n,float amount) {
+		// TODO Auto-generated method stub
+			return amount/n;
+		}
+	}
